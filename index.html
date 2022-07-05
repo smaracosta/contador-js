@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/style.css">
+    <title>Contador</title>
+</head>
+
+<body>
+    <div class="content">
+        <h1>Contador</h1>
+        <h2>Olá, este é o meu primeiro projeto JavaScript</h2>
+        <p>Clique nos botões para alterar o valor.</p>
+        <div class="buttons">
+            <div class="button-group">
+                <button name="subtrair2" onclick="decrement2()" class="plus-minus">-2</button>
+                <button name="subtrair" onclick="decrement()" class="plus-minus">-</button>
+                <span id="currentNumber" class="number">0</span>
+                <button name="adicionar" onclick="increment()" class="plus-minus">+</button>
+                <button name="adicionar2" onclick="increment2()" class="plus-minus">+2</button>
+                <div class="reset">
+                    <button type="reset" onclick="reset()" class="reset-button">RESET</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/scripts.js"></script>
+</body>
+</html>
